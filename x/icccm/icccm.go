@@ -4,7 +4,7 @@ import (
 	"github.com/BurntSushi/xgb"
 	"github.com/BurntSushi/xgb/xproto"
 
-	"github.com/thrisp/wSCP/xandle/atomic"
+	"github.com/thrisp/wSCP/xandle/x/atomic"
 )
 
 func New(c *xgb.Conn, r xproto.Window, a atomic.Atomic) ICCCM {
